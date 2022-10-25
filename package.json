@@ -8,7 +8,9 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "bootstrap": "^5.2.2",
     "react": "^16.10.2",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
   },
