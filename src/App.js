@@ -1,11 +1,12 @@
 import React from "react";
-import DisplayFoodItems from "./components/DisplayFoodItems"
+import Search from "./components/Search"
+import "bootstrap/dist/css/bootstrap.min.css";
 import { items } from "./data/data";
-console.log( {items})
 function App() {
   return (
-    <div>
-      <DisplayFoodItems foodList={items} />
-    </div>
+    <div className="container">
+      <h1>Menu</h1>
+      <Search details={items}/>
+      </div>
 ); }
 export default App;
